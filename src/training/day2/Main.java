@@ -1,11 +1,41 @@
 package training.day2;
 
+import java.util.Date;
 import java.util.Scanner;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
+        //zad.1
+        /*
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter day:");
+        int day = scanner.nextInt();
+
+        switch (day){
+            case 1:
+                System.out.print("Monday!");
+                break;
+            case 2:
+                System.out.print("Tuesday!");
+                break;
+            case 3:
+                System.out.print("Wednesday!");
+            case 4:
+                System.out.print("Thursday!");
+                break;
+            case 5:
+                System.out.print("Friday!");
+                break;
+            case 6:
+                System.out.print("Saturday!");
+                break;
+            case 7:
+                System.out.print("Sunday!");
+                break;
+            default:System.out.print("The is no "+ day +"th day of the week");
+            */
         //zad.2
         /*
         Scanner scanner = new Scanner(System.in);
