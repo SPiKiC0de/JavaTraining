@@ -61,6 +61,11 @@ public class Main {
         }
         */
         //zad.5
-
+        /*
+        String array[] = {"Monday", "Tuesday", "Wednesday","Thursday", "Friday","Saturday", "Sunday"};
+        for (int i =0; i<array.length;i++){
+            System.out.println(array[i]);
+        }
+        */
         }
 }
