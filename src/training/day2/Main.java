@@ -32,7 +32,7 @@ public class Main {
             System.out.println("Wrong credentials!");
         }
 
-         */
+        */
         //zad.3
         /*
         Scanner scanner = new Scanner(System.in);
@@ -45,7 +45,7 @@ public class Main {
          }
          */
          //zad.4
-/*
+        /*
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your weight:");
         int weight = scanner.nextInt();
@@ -59,6 +59,8 @@ public class Main {
         }else if(weight>=111){
             System.out.print("You are extra obese!");
         }
-*/
+        */
+        //zad.5
+
         }
 }
