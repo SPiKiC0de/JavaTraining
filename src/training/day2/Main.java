@@ -2,7 +2,7 @@ package training.day2;
 
 import java.util.Date;
 import java.util.Scanner;
-
+//Momchil
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
