@@ -6,7 +6,7 @@ import java.util.Scanner;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        //zad.1
+        //zad.2
         /*
         Scanner scanner = new Scanner(System.in);
 
@@ -33,11 +33,32 @@ public class Main {
         }
 
          */
-        //zad.2
+        //zad.3
+        /*
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your word:");
-        String word = scanner.next();
+        String word = scanner.nextLine();
 
-        
+         for (int i =0; i<word.length();i++){
+             char letters = word.toCharArray()[i];
+             System.out.println(letters);
+         }
+         */
+         //zad.4
+/*
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your weight:");
+        int weight = scanner.nextInt();
+
+        if (weight>=50&&70>=weight){
+            System.out.print("You are skinny!");
+        }else if(weight>=71&&90>=weight){
+            System.out.print("You are skinny fat!");
+        }else if(weight>=91&&110>=weight){
+            System.out.print("You are obese!");
+        }else if(weight>=111){
+            System.out.print("You are extra obese!");
+        }
+*/
         }
 }
