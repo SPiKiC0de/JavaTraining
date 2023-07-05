@@ -128,6 +128,7 @@ public class Tasks {
         initials(name,name1);
          */
         //zad.5
+        //
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> arr = new ArrayList<>();
         System.out.print("Enter how many words are you going to write:");
