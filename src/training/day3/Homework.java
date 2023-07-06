@@ -3,6 +3,7 @@ package training.day3;
 import java.util.Scanner;
 
 public class Homework {
+
     public static boolean checker(int number){
         boolean flag = false;
         if (number % 2 == 0){
