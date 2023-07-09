@@ -10,11 +10,12 @@ public class Homework {
         //zad.1
         Scanner scanner = new Scanner(System.in);
         String [] wrd = {"Алфа","аватар","беда","бреза","салон"};
-        for(String words :wrd){
-        if(words.charAt(0)=='а');{
+        for(String words : wrd) {
+            if(words.charAt(0)=='а') {
             System.out.println(words);
             }
         }
+
         //zad.2
         Scanner scanner1 = new Scanner(System.in);
         System.out.print("Enter how many numbers would you like to sum:");
@@ -30,6 +31,7 @@ public class Homework {
             sum += number;
         }
         System.out.print(sum);
+
         //zad.3
         List<String> words = new ArrayList<String>();
         System.out.print("Enter 4 words:");
@@ -39,8 +41,9 @@ public class Homework {
         {
             words.add(scanner2.next());
         }
+
         words.removeIf(word -> word.length()<4);
-        for (String word:words){
+        for (String word : words){
             System.out.println(word);
         }
         scanner.close();
