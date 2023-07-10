@@ -11,7 +11,7 @@ public class Homework {
         Scanner scanner = new Scanner(System.in);
         String [] wrd = {"Алфа","аватар","беда","бреза","салон"};
         for(String words : wrd) {
-            if(words.charAt(0)=='а') {
+            if(words.charAt(0) == 'а') {
             System.out.println(words);
             }
         }
@@ -42,8 +42,8 @@ public class Homework {
             words.add(scanner2.next());
         }
 
-        words.removeIf(word -> word.length()<4);
-        for (String word : words){
+        words.removeIf(word -> word.length() < 4);
+        for (String word : words) {
             System.out.println(word);
         }
         scanner.close();
