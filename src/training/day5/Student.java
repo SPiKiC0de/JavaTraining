@@ -42,13 +42,10 @@ class Student extends Person {
         if (grades.isEmpty()) {
             return 0.0;
         }
-        double total = 0.0;
-        for (double grade : grades) {
-            total += grade;
-        }
-        double average = total / grades.size();
-        return Math.round(average * 100.0) / 100.0;
+
+        return 0;
     }
+
     public static String getSubjectWithHighestGrade(Student student) {
         String highestSubject = null;
         double highestGrade = 0.0;
