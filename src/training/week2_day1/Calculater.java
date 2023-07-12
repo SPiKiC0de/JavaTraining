@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Calculater {
     public static String removeNumber(String s) {
         return s.replaceAll("\\d", "");
+
     }
     static String extractInt(String string) {
         string = string.replaceAll("[^0-9]", " ");
@@ -13,6 +14,7 @@ public class Calculater {
             return "-1";
         }
         return string;
+
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
