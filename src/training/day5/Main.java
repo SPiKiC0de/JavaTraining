@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+
     public static void printPersonInformation(List<Person> people) {
                 for (Person person : people) {
                         if (person instanceof Student) {
@@ -15,6 +16,7 @@ public class Main {
                         }
                 }
         }
+
     public static Student findStudentWithHighestGrade(List<Person> people, String subject) {
                 Student studentWithHighestGrade = null;
                 double highestGrade = 0.0;
@@ -31,7 +33,9 @@ public class Main {
                         }
                 }
                 return studentWithHighestGrade;
+
         }
+
     public static Student findStudentWithLowestGrade(List<Person> people, String subject) {
                 Student studentWithLowestGrade = null;
                 double lowestGrade = Double.MAX_VALUE;
@@ -48,7 +52,9 @@ public class Main {
                         }
                 }
                 return studentWithLowestGrade;
+
         }
+
     public static double calculateAverageSalary(List<Person> people) {
                 double totalSalary = 0.0;
                 int teacherCount = 0;
@@ -65,6 +71,7 @@ public class Main {
                 return 0.0;
 
         }
+
     public static double calculateAverageClassGrade(List<Person> people) {
                 double totalGrade = 0.0;
                 int studentCount = 0;
@@ -81,6 +88,7 @@ public class Main {
                 return 0.0;
 
         }
+
     public static Teacher teacherWithHighestGrades(List<Person> people) {
                 Teacher teacherWithHighestGrades = null;
                 double highestGrade = 0.0;
@@ -102,7 +110,9 @@ public class Main {
                         }
                 }
                 return teacherWithHighestGrades;
+
         }
+
     public static void main(String []args){
             List<Person> people = new ArrayList<>();
 
@@ -170,10 +180,11 @@ public class Main {
 
             Teacher teacherWithHighestGrades = teacherWithHighestGrades(people);
             if (teacherWithHighestGrades != null) {
-                    System.out.println("Teacher signing the highest grades: " + teacherWithHighestGrades.getName());
+                    System.out.println("Teacher signing the highest grades:" + teacherWithHighestGrades.getName());
             } else {
                     System.out.println("No teacher found with signed grades");
             }
+
     }
 }
 
