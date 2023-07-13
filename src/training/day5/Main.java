@@ -134,7 +134,7 @@ public class Main {
 
             List<String> subjectTeacher2 = new ArrayList<>();
             subjectTeacher2.add("Math");
-            Teacher teacher2 = new Teacher("Matilda", "Female", 2002, subjectTeacher2, 4500.0,"PGEE");
+            Teacher teacher2 = new Teacher("Hristina", "Female", 2002, subjectTeacher2, 4500.0,"PGEE");
 
             people.add(student1);
             people.add(student2);
