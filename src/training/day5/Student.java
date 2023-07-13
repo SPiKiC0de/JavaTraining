@@ -21,7 +21,7 @@ class Student extends Person {
         this.grades = new ArrayList<>();
     }
 
-    public int getnumberInClass() {
+    public int getNumberInClass() {
         return numberInClass;
     }
 
@@ -55,8 +55,12 @@ class Student extends Person {
             return 0.0;
         }
 
-        return 0;
+        double sum = 0.0;
+        for (double grade : grades) {
+            sum += grade;
+        }
 
+        return Math.round(sum / grades.size() * 100.0) / 100.0;
     }
 
     public static String getSubjectWithHighestGrade(Student student) {
