@@ -88,6 +88,7 @@ public class Main {
             return Math.round((totalGrade / studentCount) * 100.0) / 100.0;
         } else {
             return 0.0;
+
         }
     }
 
