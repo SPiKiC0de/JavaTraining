@@ -9,7 +9,7 @@ public class Main {
         for (Person person : people) {
             if (person instanceof Student) {
                 Student student = (Student) person;
-                System.out.println("Student:" + student.getName() + ", ID:" + student.getID()+", Number in class:"+student.getNumberInClass());
+                System.out.println("Student:" + student.getName() + ", ID:" + student.getID()+", Number in class:"+student.getNumberInClass()+", Class:A");
             } else if (person instanceof Teacher) {
                 Teacher teacher = (Teacher) person;
                 System.out.println("Teacher:" + teacher.getName() + ", ID:" + teacher.getID()+", School:"+teacher.getSchool()+", Subject:" +teacher.getSubject());
@@ -119,13 +119,13 @@ public class Main {
     public static void main(String []args){
         List<Person> people = new ArrayList<>();
 
-        Student student1 = new Student("Ivan","Male",1001,"Class a",1);
+        Student student1 = new Student("Ivan","Male",1001,"Class A",1);
         student1.addGrade("Math",4.00);
         student1.addGrade("Math",5.70);
         student1.addGrade("Science",3.60);
         student1.addGrade("Science",2.00);
 
-        Student student2 = new Student("Ivanka","Female",1002,"Class b",2);
+        Student student2 = new Student("Ivanka","Female",1002,"Class A",2);
         student2.addGrade("Math",3.80);
         student2.addGrade("Math",4.00);
         student2.addGrade("Science",5.40);
