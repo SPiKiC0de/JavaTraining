@@ -92,7 +92,7 @@ public class Main {
         }
     }
 
-    public static Teacher teacherWithHighestGrades(List<Person> people) {
+    public static Teacher teacherSignHighestGrades(List<Person> people) {
         Teacher teacherWithHighestGrades = null;
         double highestGrade = 0.0;
         for (Person person : people) {
@@ -181,9 +181,9 @@ public class Main {
         System.out.println("Subject with the highest grade for " + student2.getName() + ":" + student2.getHighestGradeSubject());
 
 
-        Teacher teacherWithHighestGrades = teacherWithHighestGrades(people);
-        if (teacherWithHighestGrades != null) {
-            System.out.println("Teacher signing the highest grades:" + teacherWithHighestGrades.getName());
+        Teacher teacherSigningHighestGrades = teacherSignHighestGrades(people);
+        if (teacherSigningHighestGrades != null) {
+            System.out.println("Teacher signing the highest grades:" + teacherSigningHighestGrades.getName());
         } else {
             System.out.println("No teacher found with signed grades");
         }
