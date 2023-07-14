@@ -133,11 +133,11 @@ public class Main {
 
         List<String> subjectTeacher1 = new ArrayList<>();
         subjectTeacher1.add("Science");
-        Teacher teacher1 = new Teacher("Sergei", "Male", 2001,subjectTeacher1, 4700.0,"PGEE");
+        Teacher teacher1 = new Teacher("Sergei", "Male", 2001,subjectTeacher1, 3750.0,"PGEE");
 
         List<String> subjectTeacher2 = new ArrayList<>();
         subjectTeacher2.add("Math");
-        Teacher teacher2 = new Teacher("Hristina", "Female", 2002, subjectTeacher2, 4500.0,"PGEE");
+        Teacher teacher2 = new Teacher("Hristina", "Female", 2002, subjectTeacher2, 3500.0,"PGEE");
 
         people.add(student1);
         people.add(student2);
