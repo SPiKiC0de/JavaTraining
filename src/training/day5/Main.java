@@ -96,7 +96,7 @@ public class Main {
         Teacher teacherWithHighestGrades = null;
         double highestGrade = 0.0;
         for (Person person : people) {
-            if (person instanceof Teacher) {
+              if (person instanceof Teacher) {
                 Teacher teacher = (Teacher) person;
                 List<String> subjects = teacher.getSubjects();
                 for (String subject : subjects) {
@@ -133,7 +133,7 @@ public class Main {
 
         List<String> subjectTeacher1 = new ArrayList<>();
         subjectTeacher1.add("Science");
-        Teacher teacher1 = new Teacher("Sergei", "Male", 2001,subjectTeacher1, 5000.0,"PGEE");
+        Teacher teacher1 = new Teacher("Sergei", "Male", 2001,subjectTeacher1, 4700.0,"PGEE");
 
         List<String> subjectTeacher2 = new ArrayList<>();
         subjectTeacher2.add("Math");
